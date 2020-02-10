@@ -1,0 +1,14 @@
+{{>html}}
+<div class="main-content">
+  {{>header}}
+  <p>Type the location for your forecast</p>
+  <form id="form" action="/weather" type="GET">
+    <input type="text" name="address" placeholder="Your location">
+    <button type="submit">SEARCH</button>
+  </form>
+  {{>weather}}
+  {{>error}}
+
+</div>
+
+{{>footer}}
