@@ -30,7 +30,8 @@ app.get("/about", (req, res) => {
   res.render("about", {
     title: "About me",
     name: "Ricardo",
-    message: "This is the awesome creator...",
+    message:
+      "This is site was created by this awesome guy. It fetches data from mapbox.com and darksky.net APIs",
   })
 })
 
